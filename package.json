@@ -10,7 +10,8 @@
     "deploy": "node ./ethereum/deploy.js",
     "deploy-factory": "run-s compile deploy",
     "build": "next build",
-    "start": "NODE_ENV=production server.js"
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "next build"
   },
   "author": "",
   "license": "ISC",
