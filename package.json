@@ -9,7 +9,8 @@
     "compile": "node ./ethereum/compile.js",
     "deploy": "node ./ethereum/deploy.js",
     "deploy-factory": "run-s compile deploy",
-    "build": "next build"
+    "build": "next build",
+    "start": "NODE_ENV=production server.js"
   },
   "author": "",
   "license": "ISC",
